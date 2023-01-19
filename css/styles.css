@@ -437,6 +437,64 @@ img {
 .footer-social-icon {
     fill: var(--primary-bg);
 }
+.footer-subscribe-container {
+    margin-left: 80px;
+}
+.subscribe-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-bg);
+}
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+.subscribe-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+}
+.subscribe-btn {
+    display: inline-block;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-brand);
+    cursor: pointer;
+    transition: var(--transition-bg-color), var(--transition-box-shadow);
+}
+.subscribe-btn:is(:hover, :focus) {
+    background-color: var(--hover-focus);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.subscribe-btn-container {
+    display: flex;
+    gap: 16px;
+}
+.subscribe-btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-bg);
+}
+.ss-item-icon {
+    fill: var(--primary-bg);
+}
+
+/*!INDEX PAGE MODAl*/
 .backdrop {
     position: fixed;
     top: 0;
@@ -463,6 +521,14 @@ img {
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+.modal-title {
+    margin-top: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .close-icon-btn {
     position: absolute;
     top: 24px;
@@ -476,6 +542,12 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+}
+.close-icon-btn:active {
+    background-color: var(--hover-focus);
+}
+.close-icon-btn:active .close-icon {
+    fill: var(--primary-bg);
 }
 .close-icon {
     fill: #000000;
