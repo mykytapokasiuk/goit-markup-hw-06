@@ -599,12 +599,95 @@
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <p class="modal-title">Leave your contacts and we will call you back</p>
-                <button type="button" class="close-icon-btn" data-modal-close>
-                    <svg class="close-icon" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close-icon"></use>
-                    </svg>
-                </button>
+                <div class="modal-container">
+                    <p class="modal-title">Leave your contacts and we will call you back</p>
+                    <button type="button" class="close-icon-btn" data-modal-close>
+                        <svg class="close-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-icon"></use>
+                        </svg>
+                    </button>
+                    <form class="modal-form">
+                        <ul class="modal-form-list list">
+                            <li class="mf-list-item">
+                                <label class="user-name-label" for="user-name">Name</label>
+                                <div class="modal-input-container">
+                                    <svg class="modal-input-icon">
+                                        <use href=""></use>
+                                    </svg>
+                                    <input
+                                        class="user-name-input"
+                                        type="text"
+                                        name="user-name"
+                                        id="user-name"
+                                    />
+                                </div>
+                            </li>
+                            <li class="mf-list-item">
+                                <label class="user-phone-label" for="user-phone">Phone</label>
+                                <div class="modal-input-container">
+                                    <svg class="modal-input-icon">
+                                        <use href=""></use>
+                                    </svg>
+                                    <input
+                                        class="user-phone-input"
+                                        type="tel"
+                                        name="user-phone"
+                                        id="user-phone"
+                                    />
+                                </div>
+                            </li>
+                            <li class="mf-list-item">
+                                <label class="user-email-label" for="user-email">Email</label>
+                                <div class="modal-input-container">
+                                    <svg class="modal-input-icon">
+                                        <use href=""></use>
+                                    </svg>
+                                    <input
+                                        class="user-email-input"
+                                        type="email"
+                                        name="user-email"
+                                        id="user-email"
+                                    />
+                                </div>
+                            </li>
+                            <li class="mf-list-item">
+                                <label class="user-comment-label" for="user-comment">Comment</label>
+                                <textarea
+                                    class="user-comment-textarea"
+                                    name="user-comment"
+                                    id="user-comment"
+                                    cols="30"
+                                    rows="10"
+                                    placeholder="Text input"
+                                ></textarea>
+                            </li>
+                            <li class="mf-list-item">
+                                <input
+                                    class="user-ready-input"
+                                    type="checkbox"
+                                    name="user-ready"
+                                    id="user-ready"
+                                />
+                                <svg class="checkbox-icon">
+                                    <use href=""></use>
+                                </svg>
+                                <label class="user-ready-label" for="user-ready"
+                                    >I accept the terms and conditions of the
+                                    <a
+                                        class="privacy-policy-link"
+                                        target="_blank"
+                                        rel="noreferrer noopener nofollow"
+                                        href=""
+                                        >Privacy Policy</a
+                                    >
+                                </label>
+                            </li>
+                            <li class="mf-list-item">
+                                <button class="modal-form-btn" type="submit">Send</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
             </div>
         </div>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

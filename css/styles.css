@@ -65,7 +65,7 @@ img {
     height: auto;
 }
 :focus {
-    outline: none;
+    outline: transparent;
 }
 
 /*!CONTAINER*/
@@ -509,6 +509,11 @@ img {
     opacity: 0;
     pointer-events: none;
 }
+.modal-container {
+    margin: 0 auto;
+    padding: 72px 24px 0 24px;
+    outline: 1px solid red;
+}
 .modal {
     position: absolute;
     top: 50%;
@@ -522,7 +527,6 @@ img {
     border-radius: 4px;
 }
 .modal-title {
-    margin-top: 72px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -551,6 +555,47 @@ img {
 }
 .close-icon {
     fill: #000000;
+}
+.modal-form {
+}
+.modal-form-list {
+}
+.mf-list-item {
+}
+.user-name-label {
+}
+.modal-input-container {
+}
+.modal-input-icon {
+}
+.user-name-input {
+}
+.user-phone-label {
+}
+.user-phone-input {
+}
+.user-email-label {
+}
+.user-email-input {
+}
+.user-comment-label {
+}
+.user-comment-textarea {
+}
+.user-ready-input {
+}
+.checkbox-icon {
+}
+.user-ready-label {
+}
+.privacy-policy-link {
+}
+.modal-form-btn {
+}
+
+.user-ready-input.is-hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 /*!----------------------------------------------------------------*/
