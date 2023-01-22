@@ -511,7 +511,6 @@ img {
 .modal-container {
     margin: 0 auto;
     padding: 72px 24px 24px 24px;
-    outline: 1px solid red;
 }
 .modal {
     position: absolute;
