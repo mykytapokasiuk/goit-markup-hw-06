@@ -567,13 +567,6 @@ img {
 .mf-list-item {
     width: 360px;
 }
-.mf-list-item:nth-child(5) {
-    margin-top: 8px;
-}
-.mf-list-item:nth-child(6) {
-    margin-top: 24px;
-    text-align: center;
-}
 .user-name-label,
 .user-phone-label,
 .user-email-label,
@@ -620,6 +613,10 @@ img {
 .user-email-input:focus + .modal-input-icon {
     fill: var(--primary-brand);
 }
+.modal-form-textarea {
+    width: 360px;
+    margin-top: 8px;
+}
 .user-comment-textarea {
     width: 100%;
     height: 120px;
@@ -640,6 +637,9 @@ img {
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #75757580;
+}
+.mf-user-ready {
+    margin-top: 16px;
 }
 /* .user-ready-input {
 } */
@@ -672,6 +672,12 @@ img {
 } */
 .privacy-policy-link {
     color: var(--primary-brand);
+}
+.modal-form .modal-form-btn {
+    display: block;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .modal-form-btn {
     width: 169px;
